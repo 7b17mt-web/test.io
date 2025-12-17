@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- description -->
+  <meta name="description" content="日本各地の行ってよかった美術館の紹介サイトです。" />
+  <!-- タイトルタグ -->
+  <title>Go2Museum</title>
+  <!-- ファビコン -->
+  <link rel="shortcut icon" href="./image/siteFavicon.png" type="image/png">
+  <!-- google fonts Raleway,Noto Sans JP -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Raleway:wght@100..900&display=swap"
+    rel="stylesheet" />
+  <!-- reset css -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+  <!-- original css -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="wrapper headerInner">
+      <a href="./"><img src="./image/siteLogo.png" alt="Go2Museum" /></a>
+      <nav>
+        <ul>
+          <li>
+            <div class="areaSelect">
+              <button id="areaButton" aria-expanded="false">
+                Area ▼
+              </button>
+              <ul id="areaMenu" class="hidden">
+                <li><a href="./hokkaido.html">北海道・東北</a></li>
+                <li><a href="./kanto.html">関東</a></li>
+                <li><a href="./chubu.html">中部</a></li>
+                <li><a href="./kinki.html">近畿</a></li>
+                <li><a href="./chugoku.html">中国・四国</a></li>
+                <li><a href="./kyushu.html">九州・沖縄</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="mainVisual">
+      <img src="./image/Section-Hero.jpg" alt="サイトのメインビジュアル　私の行ってよかった美術館">
+    </div>
+  </header>
+  <main>
+    <section id="Area" class="">
+      <div class="header wrapper">
+        <h1 class="textCenter textWhite">どちらに出かけますか</h1>
+        <div class="subText textCenter">
+          <p class="textWhite">日本全国には1,064の美術館があり、建物と風景と一緒に鑑賞できることは旅の楽しみの一つである。</p>
+        </div>
+      </div>
+      <div class="areaContents wrapper">
+        <ul class="areaItems">
+          <li class="item"><a href="./hokkaido.html">
+              <div class="imageCover">
+                <img src="./image/sapporo/SapporoArtParkDSC01508.jpg" alt="sapporo cover image" />
+              </div>
+              <div class="areaOverview">
+                <div class="areaText">
+                  <p class="regionName textWhite">北海道・東北</p>
+                  <div class="museum">
+                    <p class="textWhite">札幌藝術の森</p>
+                    <p class="textWhite">十和田市現代美術館</p>
+                  </div>
+                </div>
+              </div>
+            </a></li>
+          <li class="item"><a href="./kanto.html">
+              <div class="imageCover">
+                <img src="./image/HaraMuseumARC/IMG_3994.jpg" alt="sapporo cover image" />
+              </div>
+              <div class="areaOverview">
+                <div class="areaText">
+                  <p class="regionName textWhite">関東</p>
+                  <div class="museum">
+                    <p class="textWhite">国立新美術館</p>
+                    <p class="textWhite">原美術館ARC</p>
+                  </div>
+                </div>
+              </div>
+            </a></li>
+          <li class="item"><a href="./chubu.html">
+              <div class="imageCover">
+                <img src="./image/suzuki/DSCF8530.jpg" alt="suzuki taisetu musem" />
+              </div>
+              <div class="areaOverview">
+                <div class="areaText">
+                  <p class="regionName textWhite">中部</p>
+                  <div class="museum">
+                    <p class="textWhite">鈴木大拙館</p>
+                    <p class="textWhite">ベルナール・ビュフェ美術館</p>
+                  </div>
+                </div>
+              </div>
+            </a></li>
+          <li class="item"><a href="./kinki.html">
+              <div class="imageCover">
+                <img src="./image/ooyamasaki/DSC01507.jpg" alt="アサヒグループ大山崎山荘美術館" />
+              </div>
+              <div class="areaOverview">
+                <div class="areaText">
+                  <p class="regionName textWhite">近畿</p>
+                  <div class="museum">
+                    <p class="textWhite">アサヒグループ大山崎山荘美術館</p>
+                    <p class="textWhite">佐川美術館</p>
+                  </div>
+                </div>
+              </div>
+            </a></li>
+          <li class="item"><a href="./chugoku.html">
+              <div class="imageCover">
+                <img src="./image/shimose/ShimoseMuseumIMG_2105.jpg" alt="下瀬美術館" />
+              </div>
+              <div class="areaOverview">
+                <div class="areaText">
+                  <p class="regionName textWhite">中国・四国</p>
+                  <div class="museum">
+                    <p class="textWhite">上田正司写真美術館</p>
+                    <p class="textWhite">下瀬美術館</p>
+                  </div>
+                </div>
+              </div>
+            </a></li>
+          <li class="item"><a href="./kyushu.html">
+              <div class="imageCover">
+                <img src="./image/SeirikiMuseum/IMG_7365.JPG" alt="長崎県術館" />
+              </div>
+              <div class="areaOverview">
+                <div class="areaText">
+                  <p class="regionName textWhite">九州・沖縄</p>
+                  <div class="museum">
+                    <p class="textWhite">大川市立清力美術館</p>
+                    <p class="textWhite">長崎県美術館</p>
+                  </div>
+                </div>
+              </div>
+            </a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- <section id="About"> -->
+    <!-- 空のままで良い -->
+    <!-- </section> -->
+    <!-- <section id="Contact"> -->
+    <!-- 空のままで良い -->
+    <!-- </section> -->
+  </main>
+  <footer>
+    <div class="footerGroup">
+      <div class="footerItems">
+        <h3>エリア</h3>
+        <ul>
+          <li><a href="./hokkaido.html">北海道・東北</a></li>
+          <li><a href="./Kanto.html">関東</a></li>
+          <li><a href="./chubu.html">中部</a></li>
+          <li><a href="./Kinki.html">近畿</a></li>
+          <li><a href="./Chugoku.html">中国・四国</a></li>
+          <li><a href="/kyushu.html">九州・沖縄</a></li>
+        </ul>
+      </div>
+      <div class="footerItems">
+        <h3>このサイトについて</h3>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerLogo">
+      <a href="./"><img src="./image/siteLogo.png" alt="Go2Museum" /></a>
+          </div>
+      <div class="copyRight"><small>&copy; 2025 Go2Museum</small></div>
+
+  </footer>
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
